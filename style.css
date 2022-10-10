@@ -137,20 +137,37 @@ footer p {
 /* -------  Media Query ------- */
 
 @media all and (min-width: 480px) {
-  .group {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+  header{
+    padding: 0 20px 0 0px;
   }
-
-  .logo {
-    font-size: 36px;
-  }
-  
-  form select,
-  form input {
-    margin-bottom: 20px;
-    width: 195px;
-  }
-}
+   header .group {
+     display: flex;
+     justify-content: space-between;
+   }
+ 
+   form {
+     font-size: 14px;
+   }
+ 
+   form input {
+     width: 120px;
+   }
+ 
+   .logo {
+     font-size: 30px;
+     text-align: left;
+     align-items: center;
+   }
+ 
+   .group {
+     flex-direction: row;
+     align-items: center;
+   }
+ 
+   #join img {
+     display: flex;
+     width: 100%;
+   }
+ 
+ 
+ }
